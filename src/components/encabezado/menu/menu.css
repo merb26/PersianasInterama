@@ -1,0 +1,10 @@
+.menu {
+  background-color: #B6CAD3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu__logo {
+  margin: 15px;
+  width: 200px;
+}/*# sourceMappingURL=menu.css.map */
