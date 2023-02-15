@@ -1,7 +1,11 @@
+import './footer.css'
+
 const Footer = () => {
     return (
         <>
-            <h1>aqui va el pie de pagina</h1>
+            <div className="footer">
+                <h1>aqui va el pie de pagina</h1>
+            </div>
         </>
     )
 }
