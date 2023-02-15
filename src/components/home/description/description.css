@@ -1,0 +1,16 @@
+.container {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.container__title {
+  color: #92a1a9;
+  margin-bottom: 20px;
+}
+.container p {
+  font-size: 1.4rem;
+  border-top: 3px solid #92a1a9;
+  padding-top: 20px;
+}
+.container p span {
+  font-weight: bold;
+}/*# sourceMappingURL=description.css.map */

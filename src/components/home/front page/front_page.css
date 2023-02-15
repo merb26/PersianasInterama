@@ -9,9 +9,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(245, 245, 220, 0.5);
-  height: 70px;
-  width: 720px;
+  background-color: rgba(245, 245, 220, 0.3);
+  height: 90px;
+  width: 750px;
   border-radius: 15px;
   animation: move-center 2s ease-in-out forwards;
 }

@@ -1,0 +1,19 @@
+.container {
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+    &__title {
+        color: #92a1a9;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 1.4rem;
+        border-top: 3px solid #92a1a9;
+        padding-top: 20px;
+
+        span {
+            font-weight: bold;
+        }
+    }
+}
