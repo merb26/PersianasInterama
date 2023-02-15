@@ -1,5 +1,22 @@
 .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: url('./img/portada.jpg') center / cover no-repeat;
-    background-position: 0px -250px;
     height: 500px;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(245, 245, 220, .5);
+        height: 70px;
+        width: 720px;
+        border-radius: 15px;
+
+        &__title {
+            font-size: 3rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    }
 }
