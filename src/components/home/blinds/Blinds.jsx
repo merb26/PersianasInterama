@@ -1,6 +1,6 @@
 import './blinds.css'
 
-export const Blinds = () => {
+const Blinds = () => {
 
     const blinds = [
         {
@@ -50,7 +50,7 @@ export const Blinds = () => {
                                         })
                                     }
                                 </div>
-                                <img height={400} width={450} src={`./assets/${blind.img}`} alt={blind.name} />
+                                <img height={300} width={350} src={`./assets/${blind.img}`} alt={blind.name} />
                             </div>
 
                         )
@@ -60,3 +60,5 @@ export const Blinds = () => {
         </>
     )
 }
+
+export default Blinds

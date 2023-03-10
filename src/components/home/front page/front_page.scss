@@ -1,14 +1,8 @@
 .image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: url('./img/portada.jpg') center / cover no-repeat;
     height: 500px;
 
     &__container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         background-color: rgb(245, 245, 220, .3);
         height: 90px;
         width: 750px;
