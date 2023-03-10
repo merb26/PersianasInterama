@@ -3,15 +3,16 @@
   height: 500px;
 }
 .image__container {
-  background-color: rgba(245, 245, 220, 0.3);
-  height: 90px;
-  width: 750px;
-  border-radius: 15px;
+  background-color: rgba(182, 202, 211, 0.811);
+  height: 150px;
+  width: 800px;
+  border-radius: 5px;
   animation: move-center 2s ease-in-out forwards;
 }
 .image__container__title {
   font-size: 3rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Raleway", sans-serif;
+  color: #343333;
 }
 
 @keyframes move-center {
