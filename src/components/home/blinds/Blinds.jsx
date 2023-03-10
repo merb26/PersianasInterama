@@ -28,13 +28,13 @@ const Blinds = () => {
 
     return (
         <>
-            <div className='blinds d-flex align-items-center flex-column'>
+            <div className='blinds d-flex align-items-center flex-column p-4'>
                 <h3>Conoce la variedad de persianas que te ofrecemos:</h3>
                 {
                     blinds.map((blind, index) => {
                         return (
 
-                            <div className={`blinds__box d-flex w-100 p-4 mt-5 align-items-center justify-content-around`}>
+                            <div className={`blinds__box d-flex w-75 p-4 mt-5 align-items-center justify-content-around`}>
                                 <div key={index} className={`blinds__box__blind${index}`}>
 
                                     <div className='mb-4'>{blind.name}</div>
