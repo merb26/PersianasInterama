@@ -1,4 +1,4 @@
-import './blinds.css'
+import './scss/blinds.css'
 
 const Blinds = () => {
 
