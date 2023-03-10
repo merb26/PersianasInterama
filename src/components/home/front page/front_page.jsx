@@ -1,4 +1,4 @@
-import './front_page.css'
+import './scss/front_page.css'
 
 const FrontPage = () => {
     return (

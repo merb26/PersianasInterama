@@ -1,5 +1,5 @@
 .image {
-  background: url("./img/portada.jpg") center/cover no-repeat;
+  background: url("../img/portada.jpg") center/cover no-repeat;
   height: 500px;
 }
 .image__container {
