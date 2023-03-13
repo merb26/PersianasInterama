@@ -28,29 +28,58 @@ const Blinds = () => {
 
     return (
         <>
-            <div className='blinds d-flex align-items-center flex-column p-4'>
+            <div className='blinds d-flex align-items-center flex-column p-3'>
                 <h3>Conoce la variedad de persianas que te ofrecemos:</h3>
                 {
                     blinds.map((blind, index) => {
                         return (
 
-                            <div className={`blinds__box d-flex w-75 p-4 mt-5 align-items-center justify-content-around`}>
-                                <div key={index} className={`blinds__box__blind${index}`}>
+                            <div className={`blinds__box d-flex w-75 p-4 mt-4 align-items-center justify-content-around row`}>
+                                {
+                                    index % 2 === 0 ?
 
-                                    <div className='mb-4'>{blind.name}</div>
-                                    {
-                                        blind.feauters.map((feauter, index2) => {
-                                            return (
+                                        <>
+                                            <div key={index} className={`blinds__box__blind${index}  col`}>
 
-                                                <ul key={index2} className={`blinds__box__blind${index}__feauter${index2} m-0`}>
-                                                    <li>{feauter}</li>
-                                                </ul>
+                                                <div className='text-center mb-4 fs-4'>{blind.name}</div>
+                                                {
+                                                    blind.feauters.map((feauter, index2) => {
+                                                        return (
 
-                                            )
-                                        })
-                                    }
-                                </div>
-                                <img height={300} width={350} src={`./assets/${blind.img}`} alt={blind.name} />
+                                                            <ul key={index2} className={`blinds__box__blind${index}__feauter${index2} m-2`}>
+                                                                <li>{feauter}</li>
+                                                            </ul>
+
+                                                        )
+                                                    })
+                                                }
+                                            </div>
+                                            <img height={300} width={350} src={`./assets/${blind.img}`} alt={blind.name} className='col-lg mt-sm-3' />
+                                        </>
+
+
+                                        :
+                                        <>
+                                            <div key={index} className={`blinds__box__blind${index} col order-lg-2`}>
+
+                                                <div className='text-center mb-4 fs-4'>{blind.name}</div>
+                                                {
+                                                    blind.feauters.map((feauter, index2) => {
+                                                        return (
+
+                                                            <ul key={index2} className={`blinds__box__blind${index}__feauter${index2} m-2`}>
+                                                                <li>{feauter}</li>
+                                                            </ul>
+
+                                                        )
+                                                    })
+                                                }
+                                            </div>
+                                            <img height={300} width={350} src={`./assets/${blind.img}`} alt={blind.name} className='col-lg order-lg-1 mt-sm-3' />
+                                        </>
+
+                                }
+
                             </div>
 
                         )

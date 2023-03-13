@@ -1,3 +1,16 @@
 .blinds {
     background-color: #B6CAD3;
+
+    ul {
+        min-width: 150px;
+
+        li {
+            list-style: circle;
+        }
+    }
+
+    img {
+        min-width: 350px;
+        max-width: 490px;
+    }
 }
