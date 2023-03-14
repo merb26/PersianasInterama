@@ -1,19 +1,20 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Menu from './components/encabezado/menu/menu'
 import Footer from './components/footer/footer';
-import Blinds from './components/home/blinds/Blinds';
-import Description from './components/home/description/description';
-import FrontPage from './components/home/front page/front_page';
+import Home from './components/home/Home';
+import Contact from './pages/contact/Contact';
 
 function App() {
   return (
-    <>
+    <Router>
       <Menu />
-      <FrontPage />
-      <Description />
-      <Blinds />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contactanos" element={<Contact />} />
+      </Routes>
       <Footer />
-    </>
+    </Router>
   );
 }
 
-export default App;
+export default App; 
