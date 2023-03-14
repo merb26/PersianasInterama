@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Menu from './components/encabezado/menu/menu'
+import Menu from './components/encabezado/menu/Menu'
 import Footer from './components/footer/footer';
-import Home from './components/home/Home';
+import Home from './pages/home/Home';
 import Contact from './pages/contact/Contact';
 
 function App() {
