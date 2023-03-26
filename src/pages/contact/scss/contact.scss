@@ -6,3 +6,13 @@
         width: 500px;
     }
 }
+
+@media screen and (min-width: 320px) and (max-width: 574px) {
+    .contact_container {
+        margin-top: 100px;
+
+        &__form {
+            width: 100%;
+        }
+    }
+}

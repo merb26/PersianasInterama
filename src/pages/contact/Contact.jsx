@@ -32,7 +32,7 @@ const Contact = () => {
             <div className="contact_container container d-flex flex-column justify-content-center align-items-center">
                 <h2 className='m-4'>Contacto</h2>
                 <form
-                    className='contact_container__form d-flex flex-column justify-content-center align-items-center p-5 text-white'
+                    className='contact_container__form d-flex flex-column justify-content-center align-items-center p-sm-5 p-3 text-white'
                     ref={form}
                     onSubmit={sendEmail}
                 >
