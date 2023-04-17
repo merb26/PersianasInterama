@@ -1,3 +1,6 @@
-.footer {
-  height: 100px;
+.footer a {
+  color: #95c3d6;
+}
+.footer a:hover {
+  color: #6ab8d9;
 }/*# sourceMappingURL=footer.css.map */

@@ -1,4 +1,10 @@
 .footer {
-    // background-color: #B6CAD3;
-    height: 100px;
+
+    & a {
+        color: #95c3d6;
+
+        &:hover {
+            color: #6ab8d9;
+        }
+    }
 }
