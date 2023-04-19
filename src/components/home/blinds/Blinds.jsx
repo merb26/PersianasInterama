@@ -34,12 +34,12 @@ const Blinds = () => {
                     blinds.map((blind, index) => {
                         return (
 
-                            <div className={`blinds__box d-flex w-75 p-4 mt-4 align-items-center justify-content-around row`}>
+                            <div key={index} className={`blinds__box d-flex w-75 p-4 mt-4 align-items-center justify-content-around row`}>
                                 {
                                     index % 2 === 0 ?
 
                                         <>
-                                            <div key={index} className={`blinds__box__blind${index}  col`}>
+                                            <div className={`blinds__box__blind${index}  col`}>
 
                                                 <div className='text-center mb-4 fs-4'>{blind.name}</div>
                                                 {
@@ -60,7 +60,7 @@ const Blinds = () => {
 
                                         :
                                         <>
-                                            <div key={index} className={`blinds__box__blind${index} col order-lg-2`}>
+                                            <div className={`blinds__box__blind${index} col order-lg-2`}>
 
                                                 <div className='text-center mb-4 fs-4'>{blind.name}</div>
                                                 {
